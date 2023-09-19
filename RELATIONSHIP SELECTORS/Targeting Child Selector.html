@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Targeting Child Selector</title>
+    <style>
+        .frontend-courses>.html {
+            border: 2px solid yellow;
+            padding: 10px;
+            background-color: skyblue;
+            width: 50%;
+            text-align: center;
+            margin-left: 25%;
+        }
+
+        .frontend-courses>.css {
+            border: 2px solid blueviolet;
+            padding: 10px;
+            background-color: lightgreen;
+            width: 50%;
+            text-align: center;
+            margin-left: 25%;
+        }
+
+        .html>a {
+            text-decoration: none;
+            color: beige;
+        }
+
+        .css>a {
+            text-decoration: none;
+        }
+
+        p{
+            border: 2px solid brown;
+            padding: 10px;
+            width: 50%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <a href="#bottom">Bottom</a>
+    <a name="top"></a>
+
+    <div class="frontend-courses">
+        <p class="html"><a href="./learn.html" target="_self">HTML</a></p>
+        <p class="css"><a href="./read.html" target="_blank">CSS</a></p>
+    </div>
+
+    <p>Example of targeting child Selector</p>
+    <p>Example of targeting child Selector</p>
+    <p>Example of targeting child Selector</p>
+    <p>Example of targeting child Selector</p>
+    <p>Example of targeting child Selector</p>
+    <p>Example of targeting child Selector</p>
+    <p>Example of targeting child Selector</p>
+    <p>Example of targeting child Selector</p>
+    <p>Example of targeting child Selector</p>
+    <p>Example of targeting child Selector</p>
+    <p>Example of targeting child Selector</p>
+    <p>Example of targeting child Selector</p>
+    <p>Example of targeting child Selector</p>
+    <p>Example of targeting child Selector</p>
+    <p>Example of targeting child Selector</p>
+    <p>Example of targeting child Selector</p>
+
+<div class="frontend-courses">
+        <p class="html"><a href="">HTML</a></p>
+        <p class="css"><a href="">CSS</a></p>
+    </div>
+
+    <a name="bottom"></a>
+    <a href="#top">Top</a>
+</body>
+
+</html>
