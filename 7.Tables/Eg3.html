@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <style>
+        table {
+            width: 100%;
+        }
+
+        table,
+        tr,
+        th,
+        td {
+            border: 1px solid;
+            padding: 5px;
+            border-spacing: 10px;
+        }
+
+        th, td{
+            height: 50px;
+            vertical-align: top;
+            vertical-align: bottom;
+            text-align: left;
+            text-align: right;
+            text-align: center;
+        }
+
+        table{
+            border-collapse: collapse;
+            border-collapse: separate;
+            empty-cells: show;
+            empty-cells: hide;
+        }
+        caption{
+            caption-side: bottom;
+            caption-side: top;
+        }
+        th::first-line{
+            color: white;
+        }
+        tr:nth-child(1){
+            background-color: lightslategray;
+        }
+        tr:nth-child(2){
+            background-color: cornflowerblue;
+        }
+        tr:nth-child(3){
+            background-color: cornflowerblue;
+        }
+        tr:nth-child(4){
+            background-color: cornflowerblue;
+        }
+        tr:nth-child(5){
+            background-color: cornflowerblue;
+        }
+        th::first-letter{
+            font-size: x-large;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <caption>Products</caption>
+        <thead>
+            <tr>
+                <th>S No</th>
+                <th>Product Name</th>
+                <th>Product Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Samsung</td>
+                <td>90000</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Mi</td>
+                <td>30000</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Vivo</td>
+                <td>30000</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Apple</td>
+                <td>50000</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Sony</td>
+                <td></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Total</td>
+                <td>200000</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <style>
+        table {
+            width: 100%;
+        }
+        table, th, td{
+            border: 2px solid black;
+            border-collapse: collapse;
+            padding: 10px;
+        }
+
+        table tr:first-child{
+            background-color: skyblue;
+            color: white;
+        }
+        table tr:hover{
+            background-color: lightcoral;
+        }
+        table tr:active{
+            background-color: lightslategray;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <caption>Products</caption>
+        <thead>
+            <tr>
+                <th>S No</th>
+                <th>Product Name</th>
+                <th>Product Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Samsung</td>
+                <td>90000</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Mi</td>
+                <td>30000</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Vivo</td>
+                <td>30000</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Apple</td>
+                <td>50000</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Sony</td>
+                <td></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Total</td>
+                <td>200000</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
