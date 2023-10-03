@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>Forms</title>
+       <style>
+        fieldset{
+            width:25%;
+            background-color: whitesmoke;
+        }
+       </style>
+    </head>
+    <body>
+<section>
+    <fieldset>   
+        <legend>Register</legend>
+        <h3>Student Details</h3>
+        <form action="" method="">
+        <label for="fname">Firstname</label> 
+        <input type="text" name="firstname" id="fname"><br><br>
+
+        <label for="lname">Lastname</label> 
+        <input type="text" name="lastname" id="lname"><br><br>
+
+        <label for="mail">Email</label> 
+        <input type="email" name="Email" id="mail"><br><br>
+
+        <label for="contact">Contact</label> 
+        <input type="text" name="Contact" id="contact"><br><br>
+
+        <h3>Gender</h3>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male">
+
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female">
+
+        <label for="others">Others</label>
+        <input type="radio" name="gender" id="others">
+
+        <h3>Your Skills</h3>
+        <label for="java">Java</label>
+        <input type="checkbox" name="Java" id="java">
+
+        <label for="python">Python</label>
+        <input type="checkbox" name="Python" id="python">
+
+        <label for="javascript">Javascript</label>
+        <input type="checkbox" name="Javascript" id="javascript"><br><br>
+
+        <input style="background-color: skyblue;" type="submit" value="Register">
+        <input style="background-color: red; opacity: 90%;" type="reset" value="Reset">
+
+        </form>
+    </fieldset>
+</section>
+
+<section>
+    <fieldset>
+        <legend>Login</legend>
+        <form>
+            <label for="username">Username</label>
+            <input type="text" name="Username" id="username" placeholder="Username"><br><br>
+            <label for="password">Password</label>
+            <input type="password" name="Password" id="password" placeholder="Password">
+
+            <button style="background-color: green; opacity: 90%;">Login</button>
+        </form>
+    </fieldset>
+</section>
+    </body>
+</html>
