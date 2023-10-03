@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+     #parent {
+        position: relative;
+        border: 1px solid lightslategray;
+        background-color: lightgoldenrodyellow;
+        width: 300px;
+        height: 100px;
+        left:30%;
+        padding-left: 5px;
+       }
+
+    #child {
+     color:darkgreen;
+     background-color: white;
+     position: absolute;
+     width:200px;
+     height:50px;
+     border: 1px solid black;
+     left:45px;
+     top:25px;
+      }
+</style>
+</head>
+<body>
+
+<h2>Position: Relative</h2>
+
+<p>The Parent element has position: relative, and will remain in the natural flow of the page.<br>
+It will also act as anchor point for the absolutely positioned Child element:</p>
+<div id="parent">Parent: position: relative.
+  <div id="child">Child: position: absolute, right: 15px, top: 7x</div>
+</div>
+</body>
+</html>

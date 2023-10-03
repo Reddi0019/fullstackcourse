@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sticky Position</title>
+        <style>
+     section, div{
+        /* border:2px solid black; */
+        margin: 5px;
+        padding:10px;
+        background-color: white;
+        display: flex;
+        flex:1;
+     }
+     section div:nth-child(1){
+        display: flex;
+        flex: 4;
+     }
+     .button{
+        border-radius: 15px;
+        background-color: wheat;
+        opacity: 80%;
+        padding: 3px;
+     }
+     .button:hover{
+       background-color: lightgreen;
+        opacity: 100%;
+     }
+        </style>
+    </head>
+    <body>
+
+    
+        <section>
+           <div>Kona</div>
+            <div>Products</div>
+            <div>Solutions</div>
+            <div>Services</div>
+            <div>Pricing</div>
+            <div><button class="button">Try for Free</button></div>
+        </section>
+    </body>
+</html> 
